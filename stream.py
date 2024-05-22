@@ -10,7 +10,7 @@ loaded_model = joblib.load(file_name)
 st.title("Depression Detection")
 
 # Markdown instruction
-st.markdown("Write your thoughts. How are you Feeling? What are you thinking? How are your days going?")
+st.markdown("Write your thoughts. How are you Feeling? What are you thinking? Share Your Symptoms with us")
 
 # Removing the Streamlit banner at the bottom
 hide_streamlit_style = """

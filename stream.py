@@ -21,7 +21,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Text input for user
-user_input = st.text_area("Enter text")
+
 user_text = st.text_input("Text", key="user_text")
 
 # Access the value and handle prediction
